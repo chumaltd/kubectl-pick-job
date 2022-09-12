@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.0"
+VERSION="v1.0.0"
 NS_OPT=""
 
 function cj_list () {
@@ -24,7 +24,7 @@ function cj_list () {
 
 function show_usage () {
     echo ""
-    echo "kubectl pick-job version $VERSION"
+    echo "kubectl pick job version $VERSION"
     echo "  Usage:    kubectl pick job [options] [cronjob name>]"
     echo "  Options:"
     echo "            -n <namespace>   Specify namespace"
